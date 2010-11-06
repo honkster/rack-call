@@ -2,8 +2,6 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
-require 'rack-call/version'
-
 Gem::Specification.new do |s|
   s.name        = "rack-call"
   s.version     = "0.0.1"
